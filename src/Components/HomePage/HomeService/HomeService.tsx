@@ -10,7 +10,7 @@ const HomeService = () => {
       <HomeServiceHead />
       <HomeServiceMain />
       <button>
-        <Link href="">View More</Link>
+        <Link href="/services">View More</Link>
       </button>
     </div>
   );
