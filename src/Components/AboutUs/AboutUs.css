@@ -1,0 +1,37 @@
+.aboutUsHeader-container {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  height: 400px;
+  background-color: var(--bg1);
+}
+.aboutUsHeader-container > h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--customColor1);
+}
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.breadArrow {
+  color: var(--customColor2);
+  font-size: 20px;
+}
+.breadcrumb > b {
+  font-size: 15px;
+  color: var(--customColor1);
+}
+.breadcrumb > b > a {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.breadcrumb > b:nth-child(1) > a {
+  color: var(--textColor);
+}

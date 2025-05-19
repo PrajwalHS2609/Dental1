@@ -1,0 +1,124 @@
+.homeService-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--bg1);
+}
+.homeServiceHead-container {
+  /* border: solid blue; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.homeServiceHead-container > h6 {
+  color: var(--customColor2);
+  font-weight: bold;
+}
+.homeServiceHead-container > h2 {
+  color: var(--customColor1);
+  font-weight: 600;
+  font-size: 40px;
+}
+.homeServiceHead-container > p {
+  color: var(--textColor);
+  text-align: center;
+  font-size: 15px;
+  width: 50%;
+}
+.homeServiceMain-container {
+  /* border: solid blue; */
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.homeServiceMain-cardContainer {
+  /* border: solid green; */
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 4px grey;
+  background-color: white;
+  padding: 40px;
+}
+.homeServiceMain-cardContainer > img {
+  width: 100px;
+  height: 100px;
+}
+.homeServiceMain-cardContainer > h5 {
+  color: var(--customColor1);
+  font-weight: 600;
+}
+.homeServiceMain-cardContainer > p {
+  color: var(--textColor);
+}
+.homeServiceMain-cardContainer > button {
+  border: solid 2px var(--customColor1);
+  padding: 8px;
+  border-radius: 20px;
+}
+.homeServiceMain-cardContainer > button > a {
+  color: var(--customColor2);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
+}
+.homeServiceMain-cardContainer > button:hover a {
+  color: white;
+}
+.homeService-container > button {
+  background-color: var(--customColor2);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.homeServiceMain-cardContainer > button:hover {
+  background-color: var(--customColor1);
+}
+.homeService-container > button > a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .homeServiceHead-container > h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .homeServiceHead-container > p {
+    width: 100%;
+  }
+  .homeServiceMain-container {
+    /* border: solid blue; */
+    padding: 0px;
+  }
+  .homeServiceMain-cardContainer {
+    /* border: solid green; */
+    width: 300px;
+    height: 100%;
+    padding: 20px;
+  }
+}
