@@ -3,6 +3,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./HomeTestimonial.css";
+import { FaQuoteLeft } from "react-icons/fa";
 
 const HomeTestimonialCarousel = () => {
   const responsive = {
@@ -67,6 +68,9 @@ const HomeTestimonialCarousel = () => {
         {/* ------------firstSlider------------- */}
         <div>
           <div className="testimonialCarousel-wrapper">
+            <div className="quoteMark">
+              <FaQuoteLeft />
+            </div>
             <div className="testimonialCarousel-imgContainer">
               <img
                 src="https://img.freepik.com/free-photo/smiley-handsome-man-posing_23-2148911841.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid&w=740"
@@ -85,6 +89,9 @@ const HomeTestimonialCarousel = () => {
 
         <div>
           <div className="testimonialCarousel-wrapper">
+            <div className="quoteMark">
+              <FaQuoteLeft />
+            </div>
             <div className="testimonialCarousel-imgContainer">
               <img
                 src="https://img.freepik.com/free-photo/smiley-handsome-man-posing_23-2148911841.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid&w=740"
@@ -103,6 +110,9 @@ const HomeTestimonialCarousel = () => {
 
         <div>
           <div className="testimonialCarousel-wrapper">
+            <div className="quoteMark">
+              <FaQuoteLeft />
+            </div>
             <div className="testimonialCarousel-imgContainer">
               <img
                 src="https://img.freepik.com/free-photo/smiley-handsome-man-posing_23-2148911841.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid&w=740"
@@ -121,6 +131,9 @@ const HomeTestimonialCarousel = () => {
 
         <div>
           <div className="testimonialCarousel-wrapper">
+            <div className="quoteMark">
+              <FaQuoteLeft />
+            </div>
             <div className="testimonialCarousel-imgContainer">
               <img
                 src="https://img.freepik.com/free-photo/smiley-handsome-man-posing_23-2148911841.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid&w=740"
@@ -139,6 +152,9 @@ const HomeTestimonialCarousel = () => {
 
         <div>
           <div className="testimonialCarousel-wrapper">
+            <div className="quoteMark">
+              <FaQuoteLeft />
+            </div>
             <div className="testimonialCarousel-imgContainer">
               <img
                 src="https://img.freepik.com/free-photo/smiley-handsome-man-posing_23-2148911841.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid&w=740"
